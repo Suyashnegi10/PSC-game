@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.head{
+    background-color: rgb(22, 9, 52);
+    height: 10vh;
+    color: white;
+    text-align: center;
+}
+.head h1{
+    padding-top: 15px;
+}
+.hero{
+    margin-top: 4rem;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.image{
+    border-radius: 50%;
+}
+.image:hover{
+    border: 5px solid rgb(22, 9, 52) ;
+    opacity: 0.5;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 80px;
+}
+.one{
+    font-size: xx-large;
+   
+}
+.one p{
+     color:rgb(82, 38, 184);
+}
+#btn{
+    height: 5rem;
+    width: 15rem;
+    font-size: larger;
+    border-radius: 1.5rem;
+    background-color: rgb(22, 9, 52);
+    color: white;
+    
+}
+.button{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
